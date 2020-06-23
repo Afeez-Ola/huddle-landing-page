@@ -29,7 +29,8 @@ img{
 }
 
 .ads-pic{
-    width: 60%;
+    width: 70%;
+    float: right;
 }
 
 .container-fluid{
@@ -63,11 +64,27 @@ img{
     margin: 50px auto 0 auto;
 }
 
-.grow{
-    margin-top: 30px;
+.grow, .flow, .users{
+    margin-top: 50px;
 }
 
 .grow > p{
+    width: 110%;
+}
+
+.two{
+    float: left;
+}
+
+.flow > h3{
+    width: 80%;
+}
+
+.flow > p{
+    width: 115%;
+}
+
+.users > p{
     width: 110%;
 }
 
@@ -77,9 +94,10 @@ img{
     justify-content: space-between;
 }
 
-.second-layer{
-    /* border: 0.5px solid; */
+.second-layer, .third-layer, .fourth-layer{
+    border: 1px solid white;
     border-radius: 5px;
+    margin-bottom: 100px;
 }
 
 #title{
