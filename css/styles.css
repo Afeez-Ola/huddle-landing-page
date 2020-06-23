@@ -95,13 +95,14 @@ img{
 }
 
 .second-layer, .third-layer, .fourth-layer{
-    border: 1px solid white;
-    border-radius: 5px;
+
+    border: 1px outset #871d1d;
+    border-radius: 12px;
     margin-bottom: 100px;
 }
 
 #title{
-    background-color:  hsl(193, 100%, 96%);
+    background: url('/images/bg-hero-desktop.svg') no-repeat ;
 }
 
 
