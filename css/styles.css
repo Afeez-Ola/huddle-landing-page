@@ -28,6 +28,16 @@ img{
     width: 100%;
 }
 
+.ads-box{
+    height: 234px;
+    width: 908px;
+    margin: 0px auto 0px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    z-index: 9;
+}
+
 .ads-pic{
     width: 70%;
     float: right;
@@ -39,7 +49,7 @@ img{
 }
 .container{
     margin: 30px auto;
-    padding:  7% 8% 7%;
+    padding: 7% 0% 7%;
     height: auto;
 }
 
@@ -68,12 +78,23 @@ img{
     margin-top: 50px;
 }
 
+.grow, .users, .two{
+    margin-left: 70px;
+}
+
+.three{
+    margin-right: 70px;
+}
+
 .grow > p{
-    width: 110%;
+    width: 100%;
 }
 
 .two{
     float: left;
+}
+.flow{
+    margin-right: 50px;
 }
 
 .flow > h3{
@@ -81,7 +102,7 @@ img{
 }
 
 .flow > p{
-    width: 115%;
+    width: 100%;
 }
 
 .users > p{
@@ -95,14 +116,13 @@ img{
 }
 
 .second-layer, .third-layer, .fourth-layer{
-
-    border: 1px outset #871d1d;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     margin-bottom: 100px;
 }
 
 #title{
-    background: url('/images/bg-hero-desktop.svg') no-repeat ;
+    background: url('/images/bg-hero-desktop.svg')  hsl(193, 100%, 96%) no-repeat ;
 }
 
 
