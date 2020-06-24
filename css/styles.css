@@ -23,6 +23,9 @@ h1, h2, h3{
     sans-serif;
     font-weight: 600;
 }
+p{
+    color: #fff;
+}
 
 img{
     width: 100%;
@@ -36,6 +39,9 @@ img{
     box-shadow: 3px 3px 2px 3px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     z-index: 9;
+    position: relative;
+    top: 120px;
+
 }
 
 .ads-box > h2{
@@ -161,20 +167,26 @@ img{
 }
 
 .logo-info>p {
-    margin-left: 30px;
+    margin-left: 40px;
     line-height: 1.7;
     color: white;
 }
 
 .logo-info>img {
     margin: auto auto 40px;
+    filter: brightness(10) sepia(1);
 
 }
 
 .mobile>a {
     color: hsl(0, 0%, 100%);
     position: relative;
-    left: 8px;
+    bottom: 20px;
+    left: 35px;
+}
+
+.mobile, .email, .location{
+    width: 28px;
 }
 
 .email>a {
@@ -186,7 +198,6 @@ img{
 }
 
 .email {
-    width: 28px;
     position: relative;
     top: 60px;
     right: 125px;
@@ -202,6 +213,10 @@ img{
     left: 65px;
 }
 
+.about > p{
+    color: #fff;
+}
+
 .terms {
     position: relative;
     left: 30px;
@@ -209,7 +224,7 @@ img{
 
 img.location {
     position: relative;
-    bottom: 79px;
+    bottom: 139px;
 }
 
 .social-media {
