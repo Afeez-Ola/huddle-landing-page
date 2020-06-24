@@ -38,9 +38,19 @@ img{
     z-index: 9;
 }
 
+.ads-box > button{
+    width: 50%;
+}
+
 .ads-pic{
     width: 70%;
     float: right;
+}
+
+.box-data{
+    position: relative;
+    left: 200px;
+    top: 45px;
 }
 
 .container-fluid{
