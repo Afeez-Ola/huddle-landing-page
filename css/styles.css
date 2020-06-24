@@ -147,4 +147,92 @@ img{
     background: url('/images/bg-hero-desktop.svg')  hsl(193, 100%, 96%) no-repeat ;
 }
 
+            /* FOOTER */
+
+#footer {
+    background-color: hsl(216, 53%, 9%);
+    margin: 0;
+    padding: 400px auto 150px;
+    z-index: -1;
+}
+
+.logo-info {
+    margin-right: 20px;
+
+}
+
+.logo-info>p {
+    margin-left: 30px;
+    line-height: 1.7;
+}
+
+.logo-info>img {
+    margin: auto auto 40px;
+
+}
+
+.mobile>a {
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    left: 8px;
+}
+
+.email>a {
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    bottom: 20px;
+    left: 35px;
+
+}
+
+.email {
+    width: 28px;
+    position: relative;
+    top: 60px;
+    right: 125px;
+}
+
+.logo-ads {
+    position: relative;
+    right: 35px
+}
+
+.about-ads {
+    position: relative;
+    left: 65px;
+}
+
+.terms {
+    position: relative;
+    left: 30px;
+}
+
+img.location {
+    position: relative;
+    bottom: 79px;
+}
+
+.social-media {
+    position: relative;
+    left: 40px;
+}
+
+.social>a.fab.fa-facebook-f,
+.social>a.fab.fa-twitter,
+.social>a.fab.fa-instagram {
+    font-size: 24px;
+    height: 38px;
+    line-height: 40px;
+    margin: 5px;
+    text-align: center;
+    width: 38px;
+    border: 1px solid hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 100%;
+}
+
+.footer-ads {
+    padding: 200px 12px 22px 12px;
+}
+
 
