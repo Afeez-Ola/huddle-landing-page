@@ -12,7 +12,7 @@ body{
 button{
     width: 200px;
     height: 45px;
-    border: 1px solid;
+    border: 1px solid white;
     border-radius: 25px;
     background-color: #fff;
 }
@@ -24,12 +24,22 @@ h1, h2, h3{
     sans-serif;
     font-weight: 600;
 }
-p{
-    color: #fff;
-}
 
 img{
     width: 100%;
+}
+
+/* span{
+    color: white;
+} */
+
+
+.row > p{
+    color: white;
+}
+
+.contact > p{
+    color: white;
 }
 
 .ads-box{
