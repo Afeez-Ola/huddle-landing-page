@@ -36,6 +36,7 @@ span{
 
 .row > p{
     color: white;
+    margin: auto;
 }
 
 .contact > p{
@@ -188,49 +189,29 @@ span{
     filter: brightness(10) sepia(1);
 
 }
-.mobiles{
+.mobiles {
     position: relative;
-    right: -10px;
-    top: 15px;
+    left: -10px;
+    top: -70px;
 }
 
 .mobiles > img{
     width: 30px;
 }
 
-.emails{
+.emails {
     position: relative;
-    right: 160px;
-    top: 95px;
+    right: 10px;
+    bottom: 35px;
 }
 .emails > img{
     width: 30px;
 }
 
-.mobile>a {
-    color: hsl(0, 0%, 100%);
-    position: relative;
-  
-}
-
-.mobile, .email, .location{
+.location{
     width: 28px;
 }
 
-
-.email>a {
-    color: hsl(0, 0%, 100%);
-    position: relative;
-    bottom: 20px;
-    left: 35px;
-
-}
-
-.email {
-    position: relative;
-    top: 60px;
-    right: 125px;
-}
 
 .logo-ads {
     position: relative;
@@ -239,7 +220,7 @@ span{
 
 .about-ads {
     position: relative;
-    left: -55px;
+    left: 55px;
 }
 
 .about > p{
@@ -248,9 +229,8 @@ span{
 
 .terms {
     position: relative;
-    left: -80px;
+    left: 30px;
 }
-
 
 
 img.location {
@@ -258,7 +238,7 @@ img.location {
     bottom: 139px;
 }
 
-.social{
+/* .social{
     position: relative;
     bottom: 320px;
     left: 1150px;
@@ -281,7 +261,28 @@ img.location {
     border: 1px solid hsl(0, 0%, 100%);
     color: hsl(0, 0%, 100%);
     border-radius: 100%;
+} */
+
+
+.social-media {
+    position: relative;
+    left: 40px;
 }
+
+.social>a.fab.fa-facebook-f,
+.social>a.fab.fa-twitter,
+.social>a.fab.fa-instagram {
+    font-size: 24px;
+    height: 38px;
+    line-height: 40px;
+    margin: 5px;
+    text-align: center;
+    width: 38px;
+    border: 1px solid hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 100%;
+}
+
 
 .footer-ads {
     padding: 200px 12px 22px 12px;
