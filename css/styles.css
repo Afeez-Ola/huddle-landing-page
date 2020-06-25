@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -177,17 +178,35 @@ img{
     filter: brightness(10) sepia(1);
 
 }
+.mobiles{
+    position: relative;
+    right: -10px;
+    top: 15px;
+}
+
+.mobiles > img{
+    width: 30px;
+}
+
+.emails{
+    position: relative;
+    right: 160px;
+    top: 95px;
+}
+.emails > img{
+    width: 30px;
+}
 
 .mobile>a {
     color: hsl(0, 0%, 100%);
     position: relative;
-    bottom: 20px;
-    left: 35px;
+  
 }
 
 .mobile, .email, .location{
     width: 28px;
 }
+
 
 .email>a {
     color: hsl(0, 0%, 100%);
@@ -210,7 +229,7 @@ img{
 
 .about-ads {
     position: relative;
-    left: 65px;
+    left: -55px;
 }
 
 .about > p{
@@ -219,17 +238,25 @@ img{
 
 .terms {
     position: relative;
-    left: 30px;
+    left: -80px;
 }
+
+
 
 img.location {
     position: relative;
     bottom: 139px;
 }
 
+.social{
+    position: relative;
+    bottom: 320px;
+    left: 1150px;
+}
+
 .social-media {
     position: relative;
-    left: 40px;
+    left: -120px;
 }
 
 .social>a.fab.fa-facebook-f,
